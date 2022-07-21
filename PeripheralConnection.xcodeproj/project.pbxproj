@@ -16,6 +16,18 @@
 		4FEF4D41FB547052ACEE95A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEF4F61932B2E9E89C6ED6A /* Main.storyboard */; };
 		4FEF4DC41FE89252169119B6 /* PeripheralConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF4AD6B268EB6157559E7F /* PeripheralConnectionTests.swift */; };
 		4FEF4DCE26F29E482ABF7CF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF459828BA1CD721DEC2EF /* SceneDelegate.swift */; };
+		727D34DB1F5D58CFBADE8007 /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D39CB6490A256ABAD0DAB /* CommandQueue.swift */; };
+		727D35760EC71C94CA93ED9D /* FirmwareUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D33EB18D3DAE98C186F19 /* FirmwareUpdater.swift */; };
+		727D37AD30115BF9AE308E64 /* BleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D33193E87CD6CCA40666C /* BleManager.swift */; };
+		727D39AFB8E38DC54D425B6D /* ModelTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3D1C5F2D4B1DFED49FE5 /* ModelTabController.swift */; };
+		727D3ADD6662FC9C9409EB56 /* FilterTextSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3B6E7B401A1B78587EF0 /* FilterTextSettingsViewController.swift */; };
+		727D3B60932D2478F93CF85E /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3098C66003C2ECCCE914 /* Preferences.swift */; };
+		727D3B73D0B583C12705F6BF /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3B50AD13D6B03CCEB80B /* WatchSessionManager.swift */; };
+		727D3BC231906D854404543D /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D35E97C482E9E88B42140 /* PeripheralTableViewCell.swift */; };
+		727D3C9C760DDCF1D5207CC1 /* DfuModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D31E65980600D87ABC25A /* DfuModeViewController.swift */; };
+		727D3CAFF86F3D3AFB199CF9 /* PeripheralList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3DA68740BB43E1FB7DDC /* PeripheralList.swift */; };
+		727D3D43BA12EC296C0BE7AF /* BlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D3B454CF838E58AAC8F1B /* BlePeripheral.swift */; };
+		727D3E3ED1579B3302212303 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D35D9BF2AB00A1CB56BFF /* LocalizationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		4FEF4B9B93FB3DF43B18234B /* PeripheralConnectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralConnectionUITests.swift; sourceTree = "<group>"; };
 		4FEF4C0905E123C2AD237D45 /* PeripheralConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripheralConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEF4D46F1C5831E07FB9CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		727D3098C66003C2ECCCE914 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		727D31E65980600D87ABC25A /* DfuModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuModeViewController.swift; sourceTree = "<group>"; };
+		727D33193E87CD6CCA40666C /* BleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleManager.swift; sourceTree = "<group>"; };
+		727D33EB18D3DAE98C186F19 /* FirmwareUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareUpdater.swift; sourceTree = "<group>"; };
+		727D35D9BF2AB00A1CB56BFF /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		727D35E97C482E9E88B42140 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
+		727D39CB6490A256ABAD0DAB /* CommandQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
+		727D3B454CF838E58AAC8F1B /* BlePeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlePeripheral.swift; sourceTree = "<group>"; };
+		727D3B50AD13D6B03CCEB80B /* WatchSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		727D3B6E7B401A1B78587EF0 /* FilterTextSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTextSettingsViewController.swift; sourceTree = "<group>"; };
+		727D3D1C5F2D4B1DFED49FE5 /* ModelTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTabController.swift; sourceTree = "<group>"; };
+		727D3DA68740BB43E1FB7DDC /* PeripheralList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +128,18 @@
 				4FEF459828BA1CD721DEC2EF /* SceneDelegate.swift */,
 				4FEF4D46F1C5831E07FB9CD9 /* ViewController.swift */,
 				4FEF4F61932B2E9E89C6ED6A /* Main.storyboard */,
+				727D33193E87CD6CCA40666C /* BleManager.swift */,
+				727D3B454CF838E58AAC8F1B /* BlePeripheral.swift */,
+				727D3098C66003C2ECCCE914 /* Preferences.swift */,
+				727D35D9BF2AB00A1CB56BFF /* LocalizationManager.swift */,
+				727D39CB6490A256ABAD0DAB /* CommandQueue.swift */,
+				727D3DA68740BB43E1FB7DDC /* PeripheralList.swift */,
+				727D33EB18D3DAE98C186F19 /* FirmwareUpdater.swift */,
+				727D3B50AD13D6B03CCEB80B /* WatchSessionManager.swift */,
+				727D35E97C482E9E88B42140 /* PeripheralTableViewCell.swift */,
+				727D31E65980600D87ABC25A /* DfuModeViewController.swift */,
+				727D3B6E7B401A1B78587EF0 /* FilterTextSettingsViewController.swift */,
+				727D3D1C5F2D4B1DFED49FE5 /* ModelTabController.swift */,
 			);
 			path = PeripheralConnection;
 			sourceTree = "<group>";
@@ -266,6 +302,18 @@
 				4FEF4904F58B5532F66184F8 /* AppDelegate.swift in Sources */,
 				4FEF4DCE26F29E482ABF7CF9 /* SceneDelegate.swift in Sources */,
 				4FEF4B6A67A9F529E80565A0 /* ViewController.swift in Sources */,
+				727D37AD30115BF9AE308E64 /* BleManager.swift in Sources */,
+				727D3D43BA12EC296C0BE7AF /* BlePeripheral.swift in Sources */,
+				727D3B60932D2478F93CF85E /* Preferences.swift in Sources */,
+				727D3E3ED1579B3302212303 /* LocalizationManager.swift in Sources */,
+				727D34DB1F5D58CFBADE8007 /* CommandQueue.swift in Sources */,
+				727D3CAFF86F3D3AFB199CF9 /* PeripheralList.swift in Sources */,
+				727D35760EC71C94CA93ED9D /* FirmwareUpdater.swift in Sources */,
+				727D3B73D0B583C12705F6BF /* WatchSessionManager.swift in Sources */,
+				727D3BC231906D854404543D /* PeripheralTableViewCell.swift in Sources */,
+				727D3C9C760DDCF1D5207CC1 /* DfuModeViewController.swift in Sources */,
+				727D3ADD6662FC9C9409EB56 /* FilterTextSettingsViewController.swift in Sources */,
+				727D39AFB8E38DC54D425B6D /* ModelTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
