@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FEF40BE0CDEC99D09266189 /* PeripheralConnectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF46B8A8EF2B0BB13D167E /* PeripheralConnectionUITestsLaunchTests.swift */; };
+		4FEF45497101438BD46FA889 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4FEF438903169995A8718A4A /* .gitignore */; };
 		4FEF46DBF68745C44403E0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEF49163B7B19CE7617FF5F /* Assets.xcassets */; };
 		4FEF4904F58B5532F66184F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF45149D8A94D9702A8D0D /* AppDelegate.swift */; };
 		4FEF4A7B5B3475747E537D35 /* PeripheralConnectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF4B9B93FB3DF43B18234B /* PeripheralConnectionUITests.swift */; };
@@ -39,6 +40,7 @@
 		4FEF400CF9E89ED6465FC7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FEF41479E2364E1C893A253 /* PeripheralConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripheralConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEF419A7FEB0B8EF221816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4FEF438903169995A8718A4A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4FEF44085C5CEF24F1515CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEF45149D8A94D9702A8D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FEF459828BA1CD721DEC2EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				4FEF48A2E4742614ABC134C8 /* PeripheralConnection */,
 				4FEF41AA4BD03F89C52EF933 /* PeripheralConnectionTests */,
 				4FEF49DF57A0BCF97F839F0F /* PeripheralConnectionUITests */,
+				4FEF438903169995A8718A4A /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +233,7 @@
 				4FEF46DBF68745C44403E0AC /* Assets.xcassets in Resources */,
 				4FEF4B9B13ECC0A28A70B241 /* LaunchScreen.storyboard in Resources */,
 				4FEF4D41FB547052ACEE95A4 /* Main.storyboard in Resources */,
+				4FEF45497101438BD46FA889 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
